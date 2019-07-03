@@ -4,7 +4,7 @@
   "description": "Cognitive Bias Codex",
   "main": "main.js",
   "scripts": {
-    "build": "parcel build index.html --no-source-maps --public-url bias-viz"
+    "build": "parcel build index.html --no-source-maps --public-url /bias-viz/"
   },
   "author": "Rayraegah",
   "license": "MIT",
