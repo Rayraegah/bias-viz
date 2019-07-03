@@ -1,2 +1,0 @@
-# Cognitive Bias Codex
-
