@@ -1,0 +1,127 @@
+body {
+    font-family: monospace;
+    color: #444;
+}
+
+.main {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bias-title,
+.biases,
+.bias-text,
+.brain-image {
+    position: absolute;
+}
+
+h1 {
+    position: absolute;
+    letter-spacing: 0.5em;
+    font-size: 1.2em;
+    color: #444;
+    text-transform: uppercase;
+    text-align: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.bias-title {
+    font-size: 0.8em;
+    font-weight: 700;
+}
+
+.footer {
+    position: absolute;
+    font-weight: 600;
+    font-size: 0.6em;
+    text-transform: uppercase;
+    text-align: center;
+    top: 95%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    padding-bottom: 0;
+}
+
+.main-circle {
+    stroke-width: 1;
+    stroke: #c2cbca;
+}
+
+.node-0 {
+    fill: #5d969f;
+    color: #5d969f;
+}
+
+.link-0 {
+    stroke: #5d969f;
+}
+
+.text-0 {
+    color: #5d969f;
+}
+
+.node-1 {
+    fill: #7da6d2;
+    color: #7da6d2;
+}
+
+.link-1 {
+    stroke: #7da6d2;
+}
+
+.text-1 {
+    color: #7da6d2;
+}
+
+.node-2 {
+    fill: #7ab439;
+    color: #7ab439;
+}
+
+.link-2 {
+    stroke: #7ab439;
+}
+
+.text-2 {
+    color: #7ab439;
+}
+
+.node-3 {
+    fill: #8c9292;
+    color: #8c9292;
+}
+
+.link-3 {
+    stroke: #8c9292;
+}
+
+.text-3 {
+    color: #8c9292;
+}
+
+.bias {
+    font-size: 9px;
+    position: absolute;
+}
+
+.bias span {
+    background: white;
+    box-shadow: 5px 0 0px 0px white, -5px 0 0px 0px white;
+}
+
+.link {
+    fill: none;
+    stroke-width: 1px;
+}
